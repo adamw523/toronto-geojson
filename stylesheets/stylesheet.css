@@ -146,6 +146,8 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
+  /* 
+  causing problems with Leaflet map display
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
@@ -156,6 +158,7 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+  */
 }
 
 pre, code {
@@ -170,9 +173,10 @@ pre, code {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
 
-
-
 }
+
+/* above here */
+
 
 pre {
   width: 100%;
