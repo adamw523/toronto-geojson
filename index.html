@@ -61,8 +61,6 @@
             }).addTo(map);
 
             function onEachFeature(feature, layer) {
-                console.log(feature.properties.HOOD);
-
                 if (feature.properties && feature.properties.HOOD) {
                     layer.bindPopup(feature.properties.HOOD);
                 }
